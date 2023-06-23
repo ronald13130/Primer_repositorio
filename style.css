@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.partsuperior{
+    border: 1px solid black;
+    height: 10vh;
+    background-color: rgb(0, 123, 255);
+    
+}
+.button{
+    transform: translate(50%, 50%);  
+    height: 5vh;   
+    border-radius: 10px;    
+    background-color: #00ff59;   
+    color: aliceblue;
+}
+  .button:hover {
+    background-color: #f6ff00d3;
+  }
+  .centropag{
+    height: 80vh;
+    border: 5px solid black;
+  }
+  .piedepag{
+    height: 10vh;
+    background-color: rgb(0, 123, 255)
+  }
+  .partizquierda{
+    background-color: rgb(0, 123, 255);
+    height: 60vh;
+    width: 40%;
+    margin-left: 8%;
+    margin-top: 10vh;
+  }
+  .titulo1{
+    text-align: center;
+    font-family: Courier, monospace;
+    padding-top: 5%;
+  }
+  .registro{
+    background-color: rgb(0, 123, 255);
+    height: 55vh;
+    text-align: center;
+    align-items: flex-end;
+    padding: 10%;
+  }
+  input{
+    width: 50%;
+  }
+  .olvidar{
+    background-color: rgb(0, 123, 255);
+    border: none;
+  }
+  .olvidar:hover {
+    background-color: #f6ff00d3;
+  }
+  .iniciar{
+    background-color: #00ff59;
+    border-radius: 10px;
+    width: 25%;
+    animation: bounce 1s infinite;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+    }
+    40% {
+    transform: translateY(-10px);
+    }
+    60% {
+    transform: translateY(-5px);
+    }
+}
+.derecha{
+    position: absolute;
+    top: 20.5vh;
+    right: 8%;
+    height: 63.5vh;
+    width: 40%;
+}
+.crear{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(70%, 70%);
+}
+.crear:hover{
+    background-color: #f6ff00d3;
+}
+aside{
+    text-align: center;
+}
+aside:hover{
+    background-color: #f6ff00d3;
+    height: 50%;
+}
